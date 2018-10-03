@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ca0519;
+  background-image: url("image/rdr2.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+    font-family: "Marston";
+    src: url("font/Marston.otf") format("truetype");
+}
+
+:root {
+  --shadow: 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000, 0 0 19px #000;
+}
+
+.clock {
+  font-size: 5.6vw;
+  font-family: "Marston", sans-serif;
+  color: #fff;
+  text-shadow: var(--shadow);
+}
