@@ -24,7 +24,7 @@
 
 
 
-var clock = new Date("Oct 26, 2018 09:00:00").getTime();
+var clock = new Date("Oct 26, 2018 00:00:01").getTime();
 // var clock = new Date("Oct 03, 2018 20:05:00").getTime();
 
   var x = setInterval(function() {
