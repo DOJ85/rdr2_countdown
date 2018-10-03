@@ -1,4 +1,4 @@
-var clock = new Date("Oct 26, 2018 00:00:01").getTime();
+var clock = new Date("Oct 25, 2018 18:00:00").getTime();
 // var clock = new Date("Oct 03, 2018 20:05:00").getTime();
 
   var x = setInterval(function() {
@@ -22,11 +22,11 @@ var clock = new Date("Oct 26, 2018 00:00:01").getTime();
       seconds = "0" + seconds;
     }
 
-  document.getElementById("clock").innerHTML = days + " : " + hours + " : "
+  document.getElementById("clock_ny").innerHTML = days + " : " + hours + " : "
   + minutes + " : " + seconds;
 
   if(lapse < 0){
     clearInterval(x);
-    document.getElementById("clock").innerHTML = "DISPONIBLE !!!";
+    document.getElementById("clock_ny").innerHTML = "DISPONIBLE !!!";
   }
 }, 1000);
