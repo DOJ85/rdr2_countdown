@@ -27,6 +27,6 @@ var clock = new Date("Oct 25, 2018 18:00:00").getTime();
 
   if(lapse < 0){
     clearInterval(x);
-    document.getElementById("clock_ny").innerHTML = "DISPONIBLE !!!";
+    document.getElementById("clock_ny").innerHTML = "OUT !!!";
   }
 }, 1000);
